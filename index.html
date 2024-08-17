@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiCart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="micart.jpeg">
+
+</head>
+<body>
+
+    <div class="header">
+        <nav style="padding-bottom: 8px;">
+            <h1>MiCart</h1>
+            <center>
+            <ul>
+                <li>Home |</li>
+                <li>About |</li>
+                <li>Contact Us</li>
+            </ul>
+        </center>
+        </nav>
+    </div>
+
+
+<div class="search">
+    <input type="text" placeholder="Search">
+</div>
+
+
+
+<div class="Products">
+    <div class="image">
+        <img src="jeanswomen.jpeg" alt="Jean"><p>Flared Jeans</p>
+           <br> <p>Rs.1299
+        </p>
+    </div>
+
+    <div class="image">
+        <img src="topwomen.jpeg" alt="T-shirt"><p>T-shirt for women</p>
+           <br><p>Rs.399
+        </p>
+    </div>
+
+
+    <div class="image">
+        <img src="footwomen.jpeg" alt="Footwear"><p>Sandles for women</p>
+            <br><p>Rs.699
+        </p>
+    </div>
+</div>
+
+<div>
+    <center>
+    <a href="men.html">Men |</a>
+    <p>Kids</p>
+    </center>
+</div>
+
+
+<div class="about">
+    <h3>About Us</h3>
+    <p style="padding-left: 50px;padding-right: 50px;padding-bottom: 15px;">Welcome to MiCart! At MiCart, we believe that shopping should be as effortless and enjoyable as possible. Our mission is to revolutionize the way you shop by offering a seamless and intuitive experience that brings the best products right to your fingertips. Whether you’re on the hunt for the latest trends, unique finds, or everyday essentials, MiCart is designed to cater to your every need with just a few clicks. Our dedicated team is passionate about curating top-notch selections and delivering exceptional service to ensure your shopping journey is nothing short of extraordinary. Join us at MiCart and discover a smarter, more enjoyable way to shop!
+    </p>
+</div>
+
+<div class="Footer">
+    <center>
+    <nav style="padding-bottom: 15px;">
+        <h2>Contact Us</h2>
+    <form>
+        <table>
+            <tr><td>Name</td><td><input type="text" id="name" placeholder="Enter your name"></td></tr>
+            <tr><td>Place</td><td><input type="text" id="place"placeholder="Enter your place"></td></tr>
+            <tr><td>Email</td><td><input type="email" id="email" placeholder="Enter your email id"></td></tr>
+            <tr><td>Mobile</td><td><input type="number" id="mobile" placeholder="Enter your mobile"></td></tr>
+
+            <tr><td>Country</td>
+                <td>
+                    <select id="country">
+                        <option>Argentina</option>
+                        <option>Australia</option>
+                        <option>Brazil</option>
+                        <option>Canada</option>
+                        <option>China</option>
+                        <option>India</option>
+                        <option>Germany</option>
+                        <option>Spain</option>
+                        <option>Italy</option>
+                        <option>Japan</option>
+                        <option>Mexico</option>
+                        <option>US</option>
+                        <option>Finland</option>
+                        <option>South Korea</option>
+                        <option>North Korea</option>
+                        <option>Indonesia</option>
+                        <option>Russia</option>
+                        <option>South Africa</option>
+                    </select>
+                    </td>
+                </tr>
+
+            <tr><td></td><td><button type="button" onclick="saveToLocalStorage()">Submit</button></td></tr>
+        </table>
+    </form>
+</nav>
+</center>
+</div>
+
+
+<script>
+    function saveToLocalStorage() {
+
+        console.log('Save button clicked');
+
+        const name = document.getElementById('name').value;
+        const place = document.getElementById('place').value;
+        const email = document.getElementById('email').value;
+        const mobile = document.getElementById('mobile').value;
+        const country = document.getElementById('country').value;
+
+        localStorage.setItem('name', name);
+        localStorage.setItem('place', place);
+        localStorage.setItem('email', email);
+        localStorage.setItem('mobile', mobile);
+        localStorage.setItem('country', country);
+
+        alert('Thanks! We will get back to you');
+    }
+</script>
+
+
+</body>
+</html>

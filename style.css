@@ -1,0 +1,156 @@
+@font-face {
+    font-family:"catty" ;
+    src: url(CatthyWellingten.ttf);
+}
+
+h1{
+    font-family: "catty";
+    font-weight: 350;
+    text-align: center;
+    font-size:50px;
+    letter-spacing: 3px;
+    margin-left: 5px;
+}
+
+.header{
+    padding-bottom: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:#9a57a5 ;
+    color: white;
+
+}
+
+li,ul{
+    display: inline;
+    text-align: center;
+}
+
+
+
+li{
+    color: #f6d2fc;
+    cursor:pointer;
+}
+
+li:hover{
+    color:#480d52 ;
+}
+
+input{
+    width: 70%;
+    padding: 5px;
+border-radius: 4px;
+}
+
+.search{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.image{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 275px;
+}
+
+p{
+    padding-bottom: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+.image:hover{
+    background-color: #853394;
+    color: white;
+}
+
+img{
+    text-align: center;
+    width:275px;
+}
+
+.Products{
+    text-align: center;
+}
+
+
+form,table{
+    background-color: #9a57a5;
+    display: inline;
+    color: white;
+    padding-bottom: 25px;
+}
+
+
+td{
+    padding: 7px;
+}
+
+
+table{
+    width:100%;
+}
+
+select{
+    padding: 5px;
+    border-radius: 4px;
+}
+
+button{
+    background-color: rgb(58, 24, 74);
+    color: white;
+    cursor: pointer;
+    padding: 3px 3px 3px;
+    border-radius: 5px;
+
+}
+
+
+button:hover{
+background-color: rgb(96, 45, 96);
+}
+
+.Footer{
+    margin-top: 15px;
+
+}
+
+
+h2{
+    font-family: "catty";
+    font-weight: 350;
+    text-align: center;
+    font-size:50px;
+    letter-spacing: 3px;
+    margin: 5px;
+}
+
+
+h3{
+    font-family: "catty";
+    font-weight: 350;
+    text-align: center;
+    font-size:40px;
+    letter-spacing: 3px;
+    margin-top: 5px;
+
+}
+
+.about{
+    background-color: #480d52;
+    color: white;
+}
