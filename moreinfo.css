@@ -70,6 +70,9 @@ p{
 }
 
 
+
+
+
 /* Base Styles (for larger screens) */
 body {
     font-size: 16px; /* Default font size */
@@ -127,4 +130,12 @@ body {
     button {
         padding: 10px; /* Larger click area */
     }
+}
+
+
+
+/* Example of flexible width */
+.image {
+    width: 100%; /* Adjust to full width */
+    max-width: 275px; /* Set a max-width */
 }
