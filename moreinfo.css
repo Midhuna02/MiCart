@@ -47,14 +47,15 @@ li:hover{
 
 h3{
 color: #853394;
-margin-left: 200px;
-    margin-right: 200px;
+text-align: start;
+
     padding: 10px;
 }
 
 p{
-    text-align: center;
+    text-align: start;
     width: 100%;
+    margin: 20px;
 }
 
 .about{
