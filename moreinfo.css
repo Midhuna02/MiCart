@@ -1,0 +1,70 @@
+@font-face {
+    font-family:"catty" ;
+    src: url(CatthyWellingten.ttf);
+}
+
+h1{
+    font-family: "catty";
+    font-weight: 350;
+    text-align: center;
+    font-size:50px;
+    letter-spacing: 3px;
+    margin-left: 5px;
+}
+
+.header{
+    padding-bottom: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:#9a57a5 ;
+    color: white;
+
+}
+
+li,ul{
+    display: inline;
+    text-align: center;
+}
+
+
+li{
+    color: #f6d2fc;
+    cursor:pointer;
+
+}
+
+li:hover{
+    color:#480d52 ;
+    text-decoration: none;
+}
+
+
+h3{
+color: #853394;
+margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+p{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.about{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.address{
+    background-color: #9a57a5;
+    color: white;
+    padding: 20px;
+}

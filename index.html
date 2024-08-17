@@ -15,9 +15,9 @@
             <h1>MiCart</h1>
             <center>
             <ul>
-                <li>Home |</li>
-                <li>About |</li>
-                <li>Contact Us</li>
+                <li class="more"><a href="#bottom">About Us |</a></li>
+                <li class="more"><a href="#bottom">Contact Us |</a></li>
+                <li class="more"><a href="more.html">More Info</a></li>
             </ul>
         </center>
         </nav>
@@ -51,10 +51,11 @@
     </div>
 </div>
 
-<div>
+<div style="padding-bottom: 8px;">
     <center>
     <a href="men.html">Men |</a>
-    <p>Kids</p>
+    <a href="index.html">Women |</a>
+    <a href="kid.html">Kids</a>
     </center>
 </div>
 
@@ -126,10 +127,18 @@
         localStorage.setItem('mobile', mobile);
         localStorage.setItem('country', country);
 
+        console.log('Form Data:');
+        console.log('Name:', name);
+        console.log('Place:', place);
+        console.log('Email:', email);
+        console.log('Mobile:', mobile);
+        console.log('Country:', country);
+
+
         alert('Thanks! We will get back to you');
     }
 </script>
-
+<div id="bottom"></div>
 
 </body>
 </html>

@@ -15,6 +15,7 @@ h1{
 .header{
     padding-bottom: 10px;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -32,14 +33,15 @@ li,ul{
 }
 
 
-
 li{
     color: #f6d2fc;
     cursor:pointer;
+
 }
 
 li:hover{
     color:#480d52 ;
+    text-decoration: none;
 }
 
 input{
@@ -154,3 +156,5 @@ h3{
     background-color: #480d52;
     color: white;
 }
+
+
