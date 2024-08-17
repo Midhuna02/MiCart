@@ -53,9 +53,8 @@ margin-left: 200px;
 }
 
 p{
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 .about{
