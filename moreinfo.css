@@ -68,3 +68,27 @@ p{
     color: white;
     padding: 20px;
 }
+
+
+@media (max-width: 768px) {
+    .header nav ul {
+        text-align: center;
+    }
+
+    .header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .search input {
+        width: 95%;
+    }
+
+    .Products {
+        flex-direction: column;
+    }
+
+    .Footer form {
+        width: 100%;
+    }
+}
