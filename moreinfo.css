@@ -70,25 +70,61 @@ p{
 }
 
 
+/* Base Styles (for larger screens) */
+body {
+    font-size: 16px; /* Default font size */
+}
+
+/* For tablets and smaller screens */
 @media (max-width: 768px) {
-    .header nav ul {
-        text-align: center;
+    body {
+        font-size: 15px; /* Slightly smaller font size for tablets */
     }
 
-    .header nav ul li {
-        display: block;
-        margin: 5px 0;
+    h1, h2, h3 {
+        font-size: 2rem; /* Adjust heading sizes */
     }
 
     .search input {
-        width: 95%;
+        width: 90%; /* Make search input larger on smaller screens */
     }
 
     .Products {
-        flex-direction: column;
+        flex-direction: column; /* Stack products vertically */
+    }
+
+    .image {
+        width: 100%; /* Full width images on small screens */
     }
 
     .Footer form {
-        width: 100%;
+        width: 100%; /* Full width form on small screens */
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Smaller font size for mobile phones */
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5rem; /* Smaller heading sizes */
+    }
+
+    .search input {
+        width: 100%; /* Full width search input on mobile */
+    }
+
+    .Footer form {
+        padding: 10px; /* Less padding for mobile */
+    }
+
+    table {
+        font-size: 0.9rem; /* Smaller table font size */
+    }
+
+    button {
+        padding: 10px; /* Larger click area */
     }
 }
