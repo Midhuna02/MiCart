@@ -71,7 +71,7 @@ p{
 }
 
 
-@media (max-width: auto) {
+@media (max-width: 488px) {
     p {
         font-size: 0.1rem;
     }
