@@ -160,22 +160,26 @@ h3{
     width: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 488px) {
     p {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
 
     tr,td{
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
 
     section{
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
     li,ul{
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
     table,form,input{
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
+    a{
+        font-size: 0.75rem;
+    }
+
 }
