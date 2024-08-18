@@ -77,10 +77,13 @@ p{
     }
 
     ul,li{
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
 h5{
-    font-size: 0.7rem;
+    font-size: 0.75rem;
+}
+h3{
+    font-size: 0.8rem;
 }
 
 }
