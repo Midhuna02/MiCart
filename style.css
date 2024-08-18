@@ -183,13 +183,6 @@ h3{
         font-size: 0.75rem;
         color: #480d52;
     }
-
-    .image{
-        width: 50%;
-        height: auto;
-        overflow: hidden;
-        aspect-ratio: 16/12;
-    }
  
 
 }
