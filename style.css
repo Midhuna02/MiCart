@@ -183,7 +183,8 @@ h3{
     }
     .image{
         width: 4rem;
-        
+        display: inline-block;
+        height: 4rem;
     }
 
 }
