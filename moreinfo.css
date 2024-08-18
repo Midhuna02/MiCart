@@ -23,6 +23,7 @@ h1{
 nav{
     background-color:#9a57a5 ;
     color: white;
+    display:block;
 
 }
 
@@ -51,9 +52,9 @@ padding: 10px;
 }
 
 p{
-    text-align: start;
-    width: 100%;
-    padding: 20px;
+
+    width: auto;
+    margin-left: 20px;
 }
 
 .about{
