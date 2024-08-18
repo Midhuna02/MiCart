@@ -9,7 +9,6 @@ h1{
     text-align: center;
     font-size:50px;
     letter-spacing: 3px;
-    margin-left: 5px;
 }
 
 .header{
@@ -48,14 +47,13 @@ li:hover{
 h3{
 color: #853394;
 text-align: start;
-
-    padding: 10px;
+padding: 10px;
 }
 
 p{
     text-align: start;
     width: 100%;
-    margin: 20px;
+    padding: 20px;
 }
 
 .about{
@@ -70,72 +68,3 @@ p{
 }
 
 
-
-
-
-/* Base Styles (for larger screens) */
-body {
-    font-size: 16px; /* Default font size */
-}
-
-/* For tablets and smaller screens */
-@media (max-width: 768px) {
-    body {
-        font-size: 15px; /* Slightly smaller font size for tablets */
-    }
-
-    h1, h2, h3 {
-        font-size: 2rem; /* Adjust heading sizes */
-    }
-
-    .search input {
-        width: 90%; /* Make search input larger on smaller screens */
-    }
-
-    .Products {
-        flex-direction: column; /* Stack products vertically */
-    }
-
-    .image {
-        width: 100%; /* Full width images on small screens */
-    }
-
-    .Footer form {
-        width: 100%; /* Full width form on small screens */
-    }
-}
-
-/* For mobile phones */
-@media (max-width: 480px) {
-    body {
-        font-size: 14px; /* Smaller font size for mobile phones */
-    }
-
-    h1, h2, h3 {
-        font-size: 1.5rem; /* Smaller heading sizes */
-    }
-
-    .search input {
-        width: 100%; /* Full width search input on mobile */
-    }
-
-    .Footer form {
-        padding: 10px; /* Less padding for mobile */
-    }
-
-    table {
-        font-size: 0.9rem; /* Smaller table font size */
-    }
-
-    button {
-        padding: 10px; /* Larger click area */
-    }
-}
-
-
-
-/* Example of flexible width */
-.image {
-    width: 100%; /* Adjust to full width */
-    max-width: 275px; /* Set a max-width */
-}
