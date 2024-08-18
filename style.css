@@ -187,7 +187,8 @@ h3{
     .image{
         width: 50%;
         height: auto;
-
+        overflow: hidden;
+        aspect-ratio: 16/12;
     }
  
 
