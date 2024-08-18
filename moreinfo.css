@@ -73,10 +73,10 @@ p{
 
 @media (max-width: 488px) {
     p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     ul,li{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
