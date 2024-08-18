@@ -167,6 +167,7 @@ h3{
 
     tr,td{
         font-size: 0.75rem;
+        padding: 0.1rem;
     }
 
     section{
@@ -181,9 +182,6 @@ h3{
     a{
         font-size: 0.75rem;
     }
-   
-    td{
-        padding:0.5rem;
-    }
+ 
 
 }
