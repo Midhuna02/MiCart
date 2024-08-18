@@ -181,13 +181,9 @@ h3{
     a{
         font-size: 0.75rem;
     }
-    .image{
-        width: 4rem;
-        display: inline-block;
-        height: 4rem;
-    }
+   
     td{
-        padding:4rem;
+        padding:0.5rem;
     }
 
 }
