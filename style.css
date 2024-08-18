@@ -164,4 +164,18 @@ h3{
     p {
         font-size: 0.9rem;
     }
+
+    tr,td{
+        font-size: 0.9rem;
+    }
+
+    section{
+        font-size: 0.9rem;
+    }
+    li,ul{
+        font-size: 0.9rem;
+    }
+    table,form,input{
+        font-size: 0.9rem;
+    }
 }
