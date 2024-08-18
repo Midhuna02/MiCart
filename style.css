@@ -116,6 +116,14 @@ select{
     border-radius: 4px;
 }
 
+.search button{
+    cursor: pointer;
+    padding: 3px;
+    color: #480d52;
+    background-color: white;
+    border: none;
+}
+
 button{
     background-color: rgb(58, 24, 74);
     color: white;
@@ -124,6 +132,8 @@ button{
     border-radius: 5px;
 
 }
+
+
 
 
 button:hover{
