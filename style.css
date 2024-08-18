@@ -186,5 +186,8 @@ h3{
         display: inline-block;
         height: 4rem;
     }
+    td{
+        padding: 1rem;
+    }
 
 }
