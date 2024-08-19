@@ -71,6 +71,10 @@ p{
     padding: 20px;
 }
 
+a{
+    color: #480d52;
+}
+
 
 @media (max-width: 488px) {
     p {
